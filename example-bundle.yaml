@@ -1,0 +1,17 @@
+apiVersion: entando.org/v1
+kind: EntandoDeBundle
+metadata:
+  name: strapi-template-bundle
+  namespace: entando
+  labels:
+    plugin: 'true'
+    widget: 'true'
+spec:
+  details:
+    name: ent-prj-tmpl-bundle
+    description: Template for ent projects
+    dist-tags: {}
+    versions: []
+    thumbnail: 'data:undefined;base64,'
+  tags: []
+
